@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Aggressor', 'Blood', 'Hand', 'Knife_Deploy', 'Knife_Weapon', 'Person', 'Stabbing', 'Victim', 'handgun', 'pistol', 'rifle', 'shotgun', 'violence']
+
+roboflow:
+  workspace: ofyns
+  project: crime-detection-dupwb-g0zsc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ofyns/crime-detection-dupwb-g0zsc/dataset/1
